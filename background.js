@@ -3,7 +3,7 @@ browser.pageAction.onClicked.addListener((tab) => {
 		target: {tabId: tab.id}, 
 		func: () => {
 			const link = `- [${document.title}](${location.href})`;
-			location.assign(`obsidian://advanced-uri?today=true&data=${encodeURIComponent(link)}&mode=append`);
+			location.assign(`obsidian://advanced-uri?daily=true&data=${encodeURIComponent(link)}&mode=append`);
 		}
 	});
 });
