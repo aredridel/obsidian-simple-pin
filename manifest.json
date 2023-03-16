@@ -8,12 +8,13 @@
   "browser_specific_settings": {
     "gecko": {
       "id": "obsidian-simple-pin@dinhe.net",
-      "strict_min_version": "102.0"
+      "strict_min_version": "109.0"
     }
   },
 
   "icons": {
-    "48": "push-pin.svg"
+    "48": "push-pin.svg",
+    "96": "push-pin.svg"
   },
 
   "permissions": [
